@@ -127,8 +127,8 @@ const Section6 = () => {
               <div
               data-aos="fade-up"
                 className="card"
-                key={index}
-                ref={(el) => (cardRefs.current[index] = el)}
+                key={i}
+                ref={(el) => (cardRefs.current[i] = el)}
               >
                 <div className="card__content">
                   <div className="card__gloss"></div>
@@ -143,8 +143,8 @@ const Section6 = () => {
               <div
     data-aos="fade-down"
                 className="card"
-                key={index}
-                ref={(el) => (cardRefs.current[index] = el)}
+                key={i}
+                ref={(el) => (cardRefs.current[i] = el)}
               >
                 <div className="card__content">
                   <div className="card__gloss"></div>
