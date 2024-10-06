@@ -1,6 +1,15 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const EarthIssueCard = ({ title, impact, solution, imageUrl, rows }) => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div
+      data-aos="fade-down"
       className={`flex w-full container mx-auto  text-white flex-wrap ${
         rows % 2 == 0 ? "flex-row-reverse" : "flex-row"
       } justify-around gap-3 md:gap-10 items-center `}

@@ -1,6 +1,7 @@
 import React from "react";
 import globalIssues from "./constants/constant";
 import EarthIssueCard from "./Card";
+
 const Section3 = () => {
   return (
     <div className="container mx-auto mt-[100px]">
