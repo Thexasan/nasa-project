@@ -1,0 +1,43 @@
+.earth-container {
+  position: relative;
+  width: 400px; /* Adjust size as needed */
+  height: 400px; /* Adjust size as needed */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.earth-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* Make Earth image circular */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+.problem-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center; /* Center-align text below the images */
+}
+
+.problem-content {
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.problem-image {
+  width: 60px; /* Adjust the size of problem images */
+  height: 60px;
+  border-radius: 50%; /* Make problem images circular */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.problem-description {
+  margin-top: 8px; /* Space between image and description */
+  font-size: 12px; /* Adjust font size as needed */
+  color: #333; /* Adjust color as needed */
+  font-weight: bold; /* Make the text bold */
+  width: 100px; /* Limit the width of description */
+  text-align: center; /* Center-align text */
+}
