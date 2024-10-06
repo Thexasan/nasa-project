@@ -76,42 +76,42 @@ const Section6 = () => {
     {
       title: "Ecological Sustainability",
       description: "Reducing carbon emissions and using renewable energy.",
-      img: "src/components/pages/home/section6/img/sustainability-compressed.webp",
+      img: "./sustainability-compressed.webp",
     },
     {
       title: "Reforestation",
       description: "Planting trees and restoring ecosystems.",
-      img: "src/components/pages/home/section6/img/Reforestation-–-Is-It-Actually-Important.webp",
+      img: "./Reforestation-–-Is-It-Actually-Important.webp",
     },
     {
       title: "Circular Economy",
       description: "Recycling and optimizing resource use.",
-      img: "src/components/pages/home/section6/img/shutterstock_2109112064-scaled-e1663221705810.jpg",
+      img: "./shutterstock_2109112064-scaled-e1663221705810.jpg",
     },
     {
       title: "Water Conservation",
       description: "Saving water and using it efficiently.",
-      img: "src/components/pages/home/section6/img/water-conservation-header-1.jpg",
+      img: "./water-conservation-header-1.jpg",
     },
     {
       title: "Green Cities",
       description: "Building energy-efficient cities with green spaces.",
-      img: "src/components/pages/home/section6/img/Green-City-scaled.jpg",
+      img: "./Green-City-scaled.jpg",
     },
     {
       title: "Environmental Education",
       description: "Teaching eco-friendly habits and sustainability.",
-      img: "src/components/pages/home/section6/img/environmental-education.jpg",
+      img: "./environmental-education.jpg",
     },
     {
       title: "Green Technologies",
       description: "Using clean energy to reduce pollution.",
-      img: "src/components/pages/home/section6/img/199_1676390451.png",
+      img: "./199_1676390451.png",
     },
     {
       title: "Responsible Consumption",
       description: "Choosing sustainable products and reducing waste.",
-      img: "src/components/pages/home/section6/img/images.jpg",
+      img: "./images.jpg",
     },
   ];
 
