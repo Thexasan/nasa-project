@@ -43,8 +43,8 @@ export default function Section4() {
       description: "The Aral Sea was the fourth largest lake in the world until the 1960s when the Soviet Union diverted water from the rivers feeding the lake to grow cotton and other crops in the arid plains of Kazakhstan, Uzbekistan, and Turkmenistan. The black outline shows the approximate shoreline of the lake in 1960. By the time of the 2000 photograph, the Northern Aral Sea had separated from the Southern Aral Sea, which itself split into eastern and western parts. A dam built in 2005 helped the Northern Sea regain much of its water level at the expense of the Southern Sea. Dry conditions in 2014 led to the eastern portion of the Southern Sea completely drying up for the first time in modern history. The loss of such a large water body has made winters in the region colder and summers hotter and drier. Read more in NASA's Earth Observatory."
     },
     {
-      imgBefore: "src/components/pages/home/section1/img/vavilov_eo_2048x1536_v2vavilovicecap_oli_2018175_lrg-after.png",
-      imgAfter: "src/components/pages/home/section1/img/vavilov_eo_2048x1536_v2vavilovicecap_oli_2013182_lrg-before.jpg",
+      imgAfter: "src/components/pages/home/section1/img/vavilov_eo_2048x1536_v2vavilovicecap_oli_2018175_lrg-after.png",
+      imgBefore: "src/components/pages/home/section1/img/vavilov_eo_2048x1536_v2vavilovicecap_oli_2013182_lrg-before.jpg",
       dataBefore: "August 16, 1960",
       title: "Vavilov Glacier Accelerates",
       dataAfter: "August 18, 2005",
@@ -67,8 +67,8 @@ export default function Section4() {
       description: "The area of the Arctic Ocean covered by ice increases in winter and then decreases in summer, usually reaching its lowest point of the year in September. The minimum extent in 2012 set a record low for at least since 1979 when the first reliable satellite measurements began. These images compare the minimum from 1984, which was about equal to the average minimum extent for 1979-2000, with the minimum from 2012, which was approximately half as much. The minimum in 2013 was greater but continued a long-term trend of about 12 percent loss of sea ice per decade since the late 1970s, a decline that accelerated after 2007. The minimum in 2016 was tied to the second-lowest level on record. At the rate we’re observing, it’s quite likely that summer sea ice in the Arctic will completely disappear within this century,” said NASA scientist Joey Comiso."
     },
     {
-      imgBefore: "src/components/pages/home/section1/img/greenland_ali_2016167_2048x1536-80-after.jpg",
-      imgAfter: "src/components/pages/home/section1/img/greenland_oli_2014161_2048x1536-80-before.jpg",
+      imgAfter: "src/components/pages/home/section1/img/greenland_ali_2016167_2048x1536-80-after.jpg",
+      imgBefore: "src/components/pages/home/section1/img/greenland_oli_2014161_2048x1536-80-before.jpg",
       dataBefore: "September 18, 2021",
       title: "Unusually Early Ice Melt in Greenland",
       dataAfter: "October 23, 2022",
@@ -76,30 +76,63 @@ export default function Section4() {
     },
     {
       imgAfter: "src/components/pages/home/section1/img/spalte_oli_2020206_2048px-labeled_after.jpg",
-      imgBefore: "src/components/pages/home/section1/img/spalte_tm5_1980203_2048px-labeled_before.jpg",
+      imgBefore: "src/components/pages/home/section1/img/spalte_tm5_1986228_2048px-labeled_before.jpg",
       dataBefore: "September 18, 2021",
       title: "Retreating Glaciers in the Alps",
       dataAfter: "October 23, 2022",
       description: "The rate of melting is expected to increase as the climate warms, affecting ecosystems and water resources. The high-altitude glaciers in the Alps are especially sensitive to climate change, and the effects of global warming are evident in these images. Glaciers are disappearing as summer melting exceeds winter snowfall, leading to dramatic changes in the landscape. The left image shows a glacier in 1980, and the right shows the same location in 2020."
     },
+   
     {
-      imgBefore: "src/components/pages/home/section1/img/hummer_viking_2015164_2048x1536-80-before.jpg",
-      imgAfter: "src/components/pages/home/section1/img/greenland_oli_2018167_2048x1536-80-after.jpg",
-      dataBefore: "September 18, 2021",
-      title: "Glacier Ice Thinning in Southern Greenland",
-      dataAfter: "October 23, 2022",
+      imgBefore: "src/components/pages/home/section1/img/hudson_vir_2020195_2048x1536-before.jpg",
+      imgAfter: "src/components/pages/home/section1/img/hudson_vir_2020211_2048x1536-after.jpg",
+      dataBefore: "Sept. 11, 2018 ",
+      title: "Sea Ice Declines in Hudson Bay",
+      dataAfter: "Oct. 13, 2018",
       description: "Researchers from NASA's Goddard Space Flight Center and the National Snow and Ice Data Center are monitoring the ice loss in the southern Greenland ice sheet, which has been accelerating since 2000. The left image shows a glacier in 2015, and the right shows the same glacier in 2018, highlighting the significant thinning of ice over the three-year period."
     },
     {
-      imgAfter: "src/components/pages/home/section1/img/mekong_2031_4k-after.jpg",
-      imgBefore: "src/components/pages/home/section1/img/mekong_2031_4k-before.jpg",
-      dataBefore: "September 18, 2021",
-      title: "Loss of the Mekong River Delta",
-      dataAfter: "October 23, 2022",
-      description: "Satellite images show the loss of mangroves in the Mekong Delta due to climate change, overdevelopment, and land reclamation. The lush green areas are disappearing, which threatens local ecosystems and livelihoods. Efforts are underway to restore the delta, but the effects of climate change continue to pose challenges."
+      imgAfter: "src/components/pages/home/section1/img/iceland_tmo_2022183_2048x1536_before.jpg",
+      imgBefore: "src/components/pages/home/section1/img/iceland_tmo_2022194_2048x1536_after.jpg",
+      dataBefore: "July 2, 2022 ",
+      title: "Dusty Ice on Iceland’s Largest Glacier",
+      dataAfter: "July 13, 2022",
+      description: "Iceland’s largest glacier, the Vatnajökull ice cap, became partially covered in dust in late July 2022. Airborne dust is common in Iceland due to the relatively barren landscape near glaciers, rivers, and lava plains. Dust darkens the ice surface, causing it to absorb more sunlight and to melt faster. By contrast, bright white snow and ice reflect more sunlight. The Vatnajökull ice cap has lost around 15% of its volume over the past 100 years."
+    },
+    {
+      imgBefore: "src/components/pages/home/section1/img/iceland_tmo_2022183_2048x1536_before.jpg",
+      imgAfter: "src/components/pages/home/section1/img/iceland_tmo_2022194_2048x1536_after.jpg",
+      dataBefore: "July 2, 2022 ",
+      title: "Shrinking Lakes on Iberian Peninsula",
+      dataAfter: "July 13, 2022",
+      description: "A drought on the Iberian Peninsula, from November 2021 to at least February 2022, has had a profound effect on the area's lakes. These images show the Alto Rabagao Reservoir and a smaller lake, both in northern Portugal, before and after the drought took hold. Read more at NASA's Earth Observatory."
+    },
+    {
+      imgBefore: "src/components/pages/home/section1/img/spaindolmen_oli_2013205_2048x1536-before.jpg",
+      imgAfter: "src/components/pages/home/section1/img/spaindolmen_oli_2019206_lrg-after-v2.jpg",
+      dataBefore: "July 2, 2022",
+      title: "Shrinking Valdecañas Reservoir Exposes Spanish Stonehenge",
+      dataAfter: "July 13, 2022",
+      description: "When Spain built the Valdecañas Reservoir in 1963, water submerged an ancient monument called the Dolmen of Guadalperal. This array of more than 100 large rocks, considered the Spanish Stonehenge, is estimated to be 7,000 years old. Dry, hot conditions in 2019 lowered the water level enough to expose the stones. A circle and arrow mark their location in these images. Read more and see a photo of the dolmen at NASA's Earth Observatory."
     }
 ]);
 
+// {
+//   imgBefore: "src/components/pages/home/section1/img/hummer_viking_2015164_2048x1536-80-before.jpg",
+//   imgAfter: "src/components/pages/home/section1/img/greenland_oli_2018167_2048x1536-80-after.jpg",
+//   dataBefore: "September 18, 2021",
+//   title: "Glacier Ice Thinning in Southern Greenland",
+//   dataAfter: "October 23, 2022",
+//   description: "Researchers from NASA's Goddard Space Flight Center and the National Snow and Ice Data Center are monitoring the ice loss in the southern Greenland ice sheet, which has been accelerating since 2000. The left image shows a glacier in 2015, and the right shows the same glacier in 2018, highlighting the significant thinning of ice over the three-year period."
+// },
+ // {
+    //   imgAfter: "src/components/pages/home/section1/img/mekong_2031_4k-after.jpg",
+    //   imgBefore: "src/components/pages/home/section1/img/mekong_2031_4k-before.jpg",
+    //   dataBefore: "September 18, 2021",
+    //   title: "Loss of the Mekong River Delta",
+    //   dataAfter: "October 23, 2022",
+    //   description: "Satellite images show the loss of mangroves in the Mekong Delta due to climate change, overdevelopment, and land reclamation. The lush green areas are disappearing, which threatens local ecosystems and livelihoods. Efforts are underway to restore the delta, but the effects of climate change continue to pose challenges."
+    // }
 
   const [randomItem, setRandomItem] = useState(arr[getRandomInt(arr.length)]);
   const reactCompareSliderRef = useReactCompareSliderRef();
@@ -142,7 +175,7 @@ export default function Section4() {
       flexGrow: 1,
       position: 'relative'
     }}>
-      <ReactCompareSlider transition="0.25s cubic-bezier(.17,.67,.83,.67)" ref={reactCompareSliderRef} itemOne={<ReactCompareSliderImage src={randomItem.imgAfter} alt="Image one" />} itemTwo={<ReactCompareSliderImage src={randomItem.imgBefore} alt="Image two" style={{
+      <ReactCompareSlider transition="0.25s cubic-bezier(.17,.67,.83,.67)" ref={reactCompareSliderRef} itemOne={<ReactCompareSliderImage src={randomItem.imgBefore} alt="Image one" />} itemTwo={<ReactCompareSliderImage src={randomItem.imgAfter} alt="Image two" style={{
       filter: 'saturate(1.25) contrast(1.1) drop-shadow(2px 4px 6px black)',
     }} />} style={{
       backgroundColor : "white",

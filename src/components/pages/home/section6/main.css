@@ -1,0 +1,61 @@
+.card {
+  padding: 10px;
+  cursor: pointer;
+  flex: 1 1 300px; /* Гибкий размер для адаптивности */
+  max-width: 300px; /* Максимальная ширина карточки */
+  box-sizing: border-box;
+}
+
+.card__content {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  background: rgb(61, 58, 58);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%; /* Высота равна 100% для всех карточек */
+  max-width: 300px;
+  transition: transform 0.25s ease-out;
+}
+
+.card__image {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card__title {
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  padding: 10px 14px 5px;
+  margin: 0;
+  text-align: center; /* Выравнивание текста по центру */
+  width: 100%;
+}
+
+.card__description {
+  margin: 0;
+  padding: 0 14px 10px;
+  font-size: 14px;
+  color: hsl(200, 16%, 89%);
+  text-align: center; /* Описание тоже по центру */
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Промежуток между карточками */
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 100%; /* Карточки занимают всю ширину экрана на мобильных устройствах */
+    max-width: 100%;
+  }
+}
