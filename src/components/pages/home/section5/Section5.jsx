@@ -8,107 +8,98 @@ function getRandomInt(max) {
 }
 
 export default function Section4() {
-  let [arr, setArr] = useState([
-    
+ let [arr, setArr] = useState([
     {
       imgBefore: "src/components/pages/home/section1/img/Baban_Rafi_Forest_Comb_1.jpg",
       imgAfter: "src/components/pages/home/section1/img/Baban_Rafi_Forest_Comb_2.jpg",
-      dataBefore: "8 марта 2017 г.",
-      title: "Вырубка лесов Бабан Рафи, Нигер",
-      dataAfter: "11 апреля 2018 г.",
-      description: "Лес Бабан Рафи — самая значительная лесная зона в департаменте Маради Нигера, западноафриканской страны на южной окраине пустыни Сахара. Расположенный на южной оконечности Сахеля, Бабан Рафи имеет области как саванной, так и сахелианской растительности. Эти фотографии показывают потерю значительной части естественного ландшафта (темно-зеленые области) леса из-за сельского хозяйства. Население в этом регионе увеличилось в четыре раза за 40 лет, предшествовавших снимку 2007 года, а интенсивный спрос на сельскохозяйственные земли привел к почти непрерывному использованию с сокращенным или отсутствующим периодом залегания для восстановления плодородия. Оставшиеся лесные массивы чрезмерно эксплуатируются для получения топливной древесины и недревесных лесных продуктов. "
+      dataBefore: "March 8, 2017",
+      title: "Deforestation in Baban Rafi, Niger",
+      dataAfter: "April 11, 2018",
+      description: "Baban Rafi Forest is the most significant forest area in the Maradi department of Niger, a West African country on the southern edge of the Sahara Desert. Located at the southern end of the Sahel, Baban Rafi features areas of both savanna and Sahelian vegetation. These photographs show the loss of a significant portion of the natural landscape (dark green areas) of the forest due to agriculture. The population in this region has increased fourfold over the 40 years leading up to the 2007 photograph, and the intense demand for agricultural land has resulted in nearly continuous use with reduced or absent fallow periods for fertility recovery. The remaining forest areas are over-exploited for fuelwood and non-timber forest products."
     },
     {
       imgAfter: "src/components/pages/home/section1/img/yearlySeaIceAge_4k.0000-2048x1536-80-before.jpg",
       imgBefore: "src/components/pages/home/section1/img/yearlySeaIceAge_4k.2337-2048x1536-80-after.jpg",
-      dataBefore: "25 августа 2000 г.",
-      title: "Старый и толстый морской лед в Арктике тает",
-      dataAfter: "19 августа 2014 г.",
-      description: "Площадь, покрытая арктическим морским льдом возрастом не менее четырех лет, сократилась с 718 000 квадратных миль (1 860 000 квадратных километров) в сентябре 1984 года до 42 000 квадратных миль (110 000 квадратных километров) в сентябре 2016 года. Лед, который нарастал в течение многих лет, как правило, толще и менее подвержен таянию, чем новый лед. В этих визуализациях данных с буев, метеостанций, спутников и компьютерных моделей возраст льда обозначен оттенками от сине-серого для самого молодого льда до белого для самого старого.  "
+      dataBefore: "August 25, 2000",
+      title: "Old and Thick Sea Ice in the Arctic Melting",
+      dataAfter: "August 19, 2014",
+      description: "The area covered by Arctic sea ice at least four years old has shrunk from 718,000 square miles (1,860,000 square kilometers) in September 1984 to 42,000 square miles (110,000 square kilometers) in September 2016. Ice that has built up over many years is typically thicker and less prone to melting than new ice. In these visualizations, the age of the ice is indicated by shades from blue-gray for the youngest ice to white for the oldest."
     },
     {
       imgBefore: "src/components/pages/home/section1/img/beaufort-sea-ice-breakup-before-2048x1536-80.jpg",
       imgAfter: "src/components/pages/home/section1/img/beaufort-sea-ice-breakup-after-2048x1536-80.jpg",
-      dataBefore: "25 августа 2000 г.",
-      title: "Ранний ледоход в море Бофорта, Арктика",
-      dataAfter: "19 августа 2014 г.",
-      description: "Лед в море Бофорта, у берегов Северного Ледовитого океана, претерпел значительные трещины и разрушения к середине апреля 2016 года, значительно раньше, чем в конце мая, когда это обычно происходит. Специалисты по льду NASA связывают это изменение с необычно высокой температурой воздуха в первые месяцы года и сильными ветрами, вызванными застопорившейся системой высокого давления над этим районом. Более толстый многолетний лед, который когда-то покрывал регион, в значительной степени уступил место сезонному однолетнему льду, который тоньше, слабее и легче разрушается сильными ветрами.",
+      dataBefore: "August 25, 2000",
+      title: "Early Ice Breakup in Beaufort Sea, Arctic",
+      dataAfter: "August 19, 2014",
+      description: "Ice in the Beaufort Sea, off the coast of the Arctic Ocean, experienced significant cracking and destruction by mid-April 2016, much earlier than the usual late May occurrence. NASA ice specialists link this change to unusually high air temperatures in the early months of the year and strong winds caused by a stalled high-pressure system over the area. The thicker perennial ice that once covered the region has largely given way to thinner, weaker seasonal ice that is more easily destroyed by strong winds.",
       mapLink: 'https://climate.nasa.gov/images-of-change/?intent=131&id=583#583-early-sea-ice-breakup-in-beaufort-sea-arctic'
     },
     {
       imgBefore: "src/components/pages/home/section1/img/1_Aral_Sea_A.jpg",
       imgAfter: "src/components/pages/home/section1/img/Aral_Sea_B.jpeg",
-      dataBefore: "25 августа 2000 г.",
-      title: "Высыхание Аральского моря, Центральная Азия",
-      dataAfter: "19 августа 2014 г.",
-      description: "Аральское море было четвертым по величине озером в мире до 1960-х годов, когда Советский Союз отвел воду из рек, питавших озеро, чтобы хлопок и другие культуры можно было выращивать на засушливых равнинах Казахстана, Узбекистана и Туркменистана. Черный контур показывает примерную береговую линию озера в 1960 году. К моменту создания снимка 2000 года Северное Аральское море отделилось от Южного Аральского моря, которое само разделилось на восточную и западную части. Плотина, построенная в 2005 году, помогла северному морю восстановить большую часть своего уровня воды за счет южного моря. Засушливые условия 2014 года привели к тому, что восточная часть южного моря полностью высохла впервые в современную эпоху. Утрата смягчающего влияния такого большого водоема сделала зимы в регионе холоднее, а лето жарче и суше. Подробнее читайте в NASA's Earth Observatory."
+      dataBefore: "August 25, 2000",
+      title: "Desiccation of the Aral Sea, Central Asia",
+      dataAfter: "August 19, 2014",
+      description: "The Aral Sea was the fourth largest lake in the world until the 1960s when the Soviet Union diverted water from the rivers feeding the lake to grow cotton and other crops in the arid plains of Kazakhstan, Uzbekistan, and Turkmenistan. The black outline shows the approximate shoreline of the lake in 1960. By the time of the 2000 photograph, the Northern Aral Sea had separated from the Southern Aral Sea, which itself split into eastern and western parts. A dam built in 2005 helped the Northern Sea regain much of its water level at the expense of the Southern Sea. Dry conditions in 2014 led to the eastern portion of the Southern Sea completely drying up for the first time in modern history. The loss of such a large water body has made winters in the region colder and summers hotter and drier. Read more in NASA's Earth Observatory."
     },
     {
       imgBefore: "src/components/pages/home/section1/img/vavilov_eo_2048x1536_v2vavilovicecap_oli_2018175_lrg-after.png",
       imgAfter: "src/components/pages/home/section1/img/vavilov_eo_2048x1536_v2vavilovicecap_oli_2013182_lrg-before.jpg",
-      dataBefore: "16 августа 1960 г.",
-      title: "Ледник Вавилова ускоряется",
-      dataAfter: "18 августа 2005 г.",
-      description: "Ледник на западном краю ледникового покрова Вавилова в российской Арктике сползал в Карское море со скоростью несколько дюймов в день. Но он начал ускоряться в 2010 году и перешел в режим ускорения в 2014 году, перемещаясь со скоростью 82 фута (25 метров) в день к концу 2015 года. Он продвинулся более чем на 3 мили (5 километров) всего за год с апреля 2015 года по апрель 2016 года. Ученые говорят, что поразительное изменение требует переосмысления того, могут ли другие, похожие ледники быть менее стабильными, чем широко предполагается. Более быстрое движение наземного льда в океан может значительно ускорить повышение уровня моря. Подробнее читайте в NASA's Earth Observatory ."
+      dataBefore: "August 16, 1960",
+      title: "Vavilov Glacier Accelerates",
+      dataAfter: "August 18, 2005",
+      description: "The glacier at the western edge of the Vavilov ice cap in the Russian Arctic was sliding into the Kara Sea at a rate of several inches per day. But it began to accelerate in 2010 and went into a mode of rapid movement in 2014, moving at a rate of 82 feet (25 meters) per day by the end of 2015. It advanced more than 3 miles (5 kilometers) in just one year from April 2015 to April 2016. Scientists say this remarkable change requires a rethinking of whether other similar glaciers may be less stable than widely believed. Faster movement of land ice into the ocean could significantly accelerate sea-level rise. Read more in NASA's Earth Observatory."
     },
     {
       imgAfter: "src/components/pages/home/section1/img/yearlySeaIceAge_4k.2337-2048x1536-80-after.jpg",
       imgBefore: "src/components/pages/home/section1/img/yearlySeaIceAge_4k.0000-2048x1536-80-before.jpg",
-      dataBefore: "18 сентября 2021 г.",
-      title: "Уменьшение снежной шапки на чилийском вулкане",
-      dataAfter: "23 октября 2022 г.",
-      description: "Заснеженная Вильяррика — один из вулканов в южных Андах Чили. Мегазасуха сократила количество выпавших здесь снегов более чем на десятилетие. Эти снимки, сделанные летом в Южном полушарии, показывают уменьшение снежного покрова в начале 2022 года по сравнению с тем же периодом в 2018 году. Подробнее читайте в NASA's Earth Observatory ."
+      dataBefore: "September 18, 2021",
+      title: "Reduction of Snow Cover on a Chilean Volcano",
+      dataAfter: "October 23, 2022",
+      description: "Snow-capped Villarrica is one of the volcanoes in the southern Andes of Chile. A megadrought has reduced snowfall here for more than a decade. These images, taken in the summer of the Southern Hemisphere, show the reduction of snow cover in early 2022 compared to the same period in 2018. Read more in NASA's Earth Observatory."
     },
     {
       imgAfter: "src/components/pages/home/section1/img/seaIce_framePerYear_HD.2016-2048px-after (1).jpg",
       imgBefore: "src/components/pages/home/section1/img/seaIce_framePerYear_HD.1979-2048px-before (1).jpg",
-      dataBefore: "18 сентября 2021 г.",
-      title: "Площадь арктического морского льда достигла рекордно низкого уровня",
-      dataAfter: "23 октября 2022 г.",
-      description: "Площадь Северного Ледовитого океана, покрытая льдом, увеличивается зимой, а затем сокращается летом, обычно достигая самой низкой точки года в сентябре. Минимальный охват в 2012 году установил рекордно низкий уровень по крайней мере с 1979 года, когда начались первые надежные спутниковые измерения. Эти изображения сравнивают минимум 1984 года, который был примерно равен средней минимальной протяженности за 1979–2000 годы, с минимумом 2012 года, когда минимум был примерно вдвое меньше. Минимум 2013 года был больше, но продолжил долгосрочную тенденцию к снижению около 12 процентов потери морского льда за десятилетие с конца 1970-х годов, снижение, которое ускорилось после 2007 года. Минимум 2016 года был привязан ко второму самому низкому уровню за всю историю наблюдений. «При той скорости, которую мы наблюдаем, — сказал ученый НАСА Джои Комисо, — весьма вероятно, что летний морской лед Арктики полностью исчезнет в течение этого столетия»."
+      dataBefore: "September 18, 2021",
+      title: "Arctic Sea Ice Area Reaches Record Low",
+      dataAfter: "October 23, 2022",
+      description: "The area of the Arctic Ocean covered by ice increases in winter and then decreases in summer, usually reaching its lowest point of the year in September. The minimum extent in 2012 set a record low for at least since 1979 when the first reliable satellite measurements began. These images compare the minimum from 1984, which was about equal to the average minimum extent for 1979-2000, with the minimum from 2012, which was approximately half as much. The minimum in 2013 was greater but continued a long-term trend of about 12 percent loss of sea ice per decade since the late 1970s, a decline that accelerated after 2007. The minimum in 2016 was tied to the second-lowest level on record. At the rate we’re observing, it’s quite likely that summer sea ice in the Arctic will completely disappear within this century,” said NASA scientist Joey Comiso."
     },
     {
       imgBefore: "src/components/pages/home/section1/img/greenland_ali_2016167_2048x1536-80-after.jpg",
       imgAfter: "src/components/pages/home/section1/img/greenland_oli_2014161_2048x1536-80-before.jpg",
-      dataBefore: "18 сентября 2021 г.",
-      title: "Необычайно раннее таяние льда в Гренландии",
-      dataAfter: "23 октября 2022 г.",
-      description: "Талые ручьи, реки и озера образуются на поверхности Гренландского ледяного щита каждую весну или начало лета, но таяние началось исключительно рано в 2016 году. Таяние способствует дальнейшему таянию, когда образуются озера талой воды, поскольку они затемняют поверхность и поглощают больше солнечного света, чем лед. Поверхностное таяние способствует повышению уровня моря, когда вода стекает в океан и когда она течет через трещины к основанию ледника и временно ускоряет движение льда."
+      dataBefore: "September 18, 2021",
+      title: "Unusually Early Ice Melt in Greenland",
+      dataAfter: "October 23, 2022",
+      description: "Meltwater streams, rivers, and lakes form on the surface of the Greenland Ice Sheet each spring or early summer, but melting began exceptionally early in 2016. Melting promotes further melting when meltwater lakes form, as they darken the surface and absorb more sunlight than ice. Surface melting contributes to sea-level rise when water flows into the ocean and when it flows through cracks to the base of the glacier, temporarily speeding up ice movement."
     },
     {
       imgAfter: "src/components/pages/home/section1/img/spalte_oli_2020206_2048px-labeled_after.jpg",
-      imgBefore: "src/components/pages/home/section1/img/spalte_tm5_1986228_2048px-labeled_before.jpg",
-      dataBefore: "18 сентября 2021 г.",
-      title: "Ледник Спальте в Гренландии распался",
-      dataAfter: "23 октября 2022 г.",
-      description: "Ледник Спальте (справа вверху) был ветвью огромного шельфового ледника на северо-востоке Гренландии под названием Ниогхальвфьордсбрае, также известного как 79 N (изображение 1986 года, слева). Но в конце июня 2020 года Спальте откололся от своего родителя и раскололся на многочисленные айсберги (изображение 2020 года, справа). Несмотря на потерю ледника площадью 44 квадратных мили (114 квадратных километров), 79 N остается крупнейшим шельфовым ледником Арктики, его длина составляет около 43 миль (70 километров), а ширина — 12 миль (20 километров). Но ученые говорят, что разломы, видимые к югу от того места, где был прикреплен Спальте, предвещают дальнейшую потерю. Подробнее читайте в NASA's Earth Observatory ."
+      imgBefore: "src/components/pages/home/section1/img/spalte_tm5_1980203_2048px-labeled_before.jpg",
+      dataBefore: "September 18, 2021",
+      title: "Retreating Glaciers in the Alps",
+      dataAfter: "October 23, 2022",
+      description: "The rate of melting is expected to increase as the climate warms, affecting ecosystems and water resources. The high-altitude glaciers in the Alps are especially sensitive to climate change, and the effects of global warming are evident in these images. Glaciers are disappearing as summer melting exceeds winter snowfall, leading to dramatic changes in the landscape. The left image shows a glacier in 1980, and the right shows the same location in 2020."
     },
     {
-      imgAfter: "src/components/pages/home/section1/img/heilprin_and_tracy_glaciersheilprin_oli_2017273_2048x1536-after.jpg",
-      imgBefore: "src/components/pages/home/section1/img/heilprin_and_tracy_glaciersheilprin_tm5_1987271_2048x1536-before.jpg",
-      dataBefore: "18 сентября 2021 г.",
-      title: "Ледники Трейси и Хейлприн в Гренландии тают",
-      dataAfter: "23 октября 2022 г.",
-      description: "Трейси (верхний) и Хейлприн (нижний) — два крупнейших ледника, которые стекают в Инглфилд-Бреднинг, фьорд на северо-западном побережье Гренландии. Они отступали с одинаковой скоростью в 1980-х и 1990-х годах, около 125 футов (38 метров) и 118 футов (36 метров) в год соответственно. Но между 2000 и 2014 годами скорость потери Трейси увеличилась до примерно 1194 футов (364 метров) в год, что более чем в три раза быстрее, чем 358 футов (109 метров) Хейлприна в год. Вероятной причиной разницы является то, что Трейси впадает в гораздо более глубокий канал морской воды, что делает его более уязвимым для таяния снизу по мере нагревания морской воды."
-    },
-    
-    {
-      imgAfter: "src/components/pages/home/section1/img/tibet_2048px_1987.jpg",
-      imgBefore: "src/components/pages/home/section1/img/tibet_2048px_2021.jpg",
-      dataBefore: "18 сентября 2021 г.",
-      title: "Тающие ледники увеличивают озера на Тибетском плато",
-      dataAfter: "23 октября 2022 г.",
-      description: "Тибетское нагорье, где находятся десятки тысяч ледников, очень чувствительно к изменению климата. Вода от таяния ледников создала сотни новых озер и увеличила существующие, такие как главная пара, показанная здесь. Изображение 1987 года было сделано, когда Dorsoidong Co (слева) все еще был отделен от Chibzhang Co тонкой полосой земли. Большее количество взвешенного ила в Dorsoidong Co, вероятно, является причиной разницы в цвете. По мере того, как вода в двух озерах поднималась, она в конечном итоге покрыла барьер, объединив озера к моменту снимка 2021 года. Подробнее читайте в NASA's Earth Observatory ."
+      imgBefore: "src/components/pages/home/section1/img/hummer_viking_2015164_2048x1536-80-before.jpg",
+      imgAfter: "src/components/pages/home/section1/img/greenland_oli_2018167_2048x1536-80-after.jpg",
+      dataBefore: "September 18, 2021",
+      title: "Glacier Ice Thinning in Southern Greenland",
+      dataAfter: "October 23, 2022",
+      description: "Researchers from NASA's Goddard Space Flight Center and the National Snow and Ice Data Center are monitoring the ice loss in the southern Greenland ice sheet, which has been accelerating since 2000. The left image shows a glacier in 2015, and the right shows the same glacier in 2018, highlighting the significant thinning of ice over the three-year period."
     },
     {
-      imgAfter: "src/components/pages/home/section1/img/eastisland_oli_2018286_2048x1536-80-after.jpg",
-      imgBefore: "src/components/pages/home/section1/img/eastisland_oli_2018254_2048x1536-80-before.jpg",
-      dataBefore: "18 сентября 2021 г.",
-      title: "Гавайский остров исчезает",
-      dataAfter: "23 октября 2022 г.",
-      description: "До урагана Валака в октябре 2018 года Северо-Западные Гавайские острова включали Восточный остров, показанный на сентябрьском снимке. Но шторм смыл большую часть 11 акров песка и гравия, которые составляли остров, оставив только два куска земли, видимых на октябрьском снимке. Восточный остров был частью Френч-Фригат-Шолс, атолла в морском национальном памятнике Папаханаумокуакеа. Подробнее читайте в NASA's Earth Observatory ."
-    },
-  ])
+      imgAfter: "src/components/pages/home/section1/img/mekong_2031_4k-after.jpg",
+      imgBefore: "src/components/pages/home/section1/img/mekong_2031_4k-before.jpg",
+      dataBefore: "September 18, 2021",
+      title: "Loss of the Mekong River Delta",
+      dataAfter: "October 23, 2022",
+      description: "Satellite images show the loss of mangroves in the Mekong Delta due to climate change, overdevelopment, and land reclamation. The lush green areas are disappearing, which threatens local ecosystems and livelihoods. Efforts are underway to restore the delta, but the effects of climate change continue to pose challenges."
+    }
+]);
+
 
   const [randomItem, setRandomItem] = useState(arr[getRandomInt(arr.length)]);
   const reactCompareSliderRef = useReactCompareSliderRef();
