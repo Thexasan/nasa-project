@@ -1,16 +1,16 @@
 const EarthIssueCard = ({ title, impact, solution, imageUrl, rows }) => {
   return (
     <div
-      className={`flex w-full  text-white ${
+      className={`flex w-full container mx-auto  text-white flex-wrap ${
         rows % 2 == 0 ? "flex-row-reverse" : "flex-row"
-      } justify-around gap-10 items-center `}
+      } justify-around gap-3 md:gap-10 items-center `}
     >
       <img
-        className="min-w-[40%] max-h-[400px] rounded-xl object-cover"
+        className="md:min-w-[40%] hover:scale-90 duration-300 transition-all max-h-[400px] rounded-xl object-cover"
         src={imageUrl}
         alt={title}
       />
-      <div className="max-w-[50%]">
+      <div className="md:max-w-[50%] px-5 md:px-0">
         <h2 className="font-bold text-xl mb-2">{title}</h2>
         <p className=" text-base">{impact}</p>
         {/* <p className=" text-base mt-4">{solution}</p> */}

@@ -3,10 +3,8 @@ import globalIssues from "./constants/constant";
 import EarthIssueCard from "./Card";
 const Section3 = () => {
   return (
-    <div className="container mx-auto">
-      <h1 className="text-center">Problems and Solution</h1>
-
-      <div className="flex flex-col gap-[200px]">
+    <div className="container mx-auto mt-[100px]">
+      <div className="flex flex-col gap-20 sm:gap-[200px]">
         {globalIssues.map((issues, i) => (
           <EarthIssueCard
             key={i}

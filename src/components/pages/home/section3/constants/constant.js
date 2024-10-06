@@ -38,17 +38,9 @@ const globalIssues = [
     image: ocean, // Ссылка на изображение о влиянии изменения климата
   },
   {
-    title: "Утрата биоразнообразия",
+    title: "Impact of Drought on the Environment",
     impact:
-      "Утрата биоразнообразия нарушает экосистемы, снижает их способность поддерживать чистоту воды, опыление растений и регулировать климат.",
-    solution:
-      "Создание охраняемых территорий, восстановление природных экосистем и сокращение воздействия человеческой деятельности на природу могут помочь сохранить биоразнообразие.",
-    image: fire, // Ссылка на изображение о влиянии изменения климата
-  },
-  {
-    title: "Засуха",
-    impact:
-      "Засухи ведут к нехватке воды, потерям в сельском хозяйстве, снижению уровня рек и водоемов, а также к распространению лесных пожаров.",
+      "Droughts lead to severe water shortages, which negatively affect both ecosystems and human communities. Agriculture suffers as crops fail and livestock struggle, leading to food insecurity. Rivers, lakes, and reservoirs shrink, impacting wildlife that depends on these water sources. Soil degradation occurs as the land becomes dry and more vulnerable to erosion. Droughts also increase the risk of wildfires due to dry vegetation, which can quickly spread and cause widespread damage to forests and habitats. Additionally, prolonged drought can disrupt local climates and biodiversity, making it harder for species to survive in arid conditions.",
     solution:
       "Для борьбы с засухой нужно улучшать управление водными ресурсами, внедрять методы сохранения воды в сельском хозяйстве и строить системы устойчивого водоснабжения.",
     image: fire, // Ссылка на изображение о влиянии изменения климата
